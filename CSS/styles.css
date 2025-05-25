@@ -42,6 +42,7 @@ img {
 }
 
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -205,4 +206,46 @@ body {
   height: 53px;
   background: #02897a;
   margin: 50px auto;
+}
+
+/* ===== Management section ===== */
+
+.management-section .container {
+  display: flex;
+  align-items: center;
+}
+
+.management-container {
+  width: 486px;
+  padding-right: 45px;
+}
+.management-text-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.management-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.management-text {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.management-text,
+.management-item-text {
+  line-height: 1.62;
+  text-align: left;
+}
+.management-list .management-list-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+.management-subtitle {
+  font-weight: 600;
+  line-height: 1.62;
+  margin-bottom: 12px;
+}
+.management-img {
+  margin-left: auto;
 }
