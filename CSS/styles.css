@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   width: 1150px;
   padding-left: 20px;
@@ -42,7 +46,6 @@ img {
 }
 
 body {
-  box-sizing: border-box;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -321,7 +324,7 @@ body {
 /* ===== i can section ===== */
 
 .i-can-section .container {
-  width: 916px;
+  width: 956px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -413,10 +416,27 @@ body {
 }
 .article-item {
   width: calc((100% - 60px) / 3);
+  border: 1px solid #dedede;
+  border-radius: 8px;
 }
 .article-img {
+  margin-bottom: 24px;
 }
 .article-dates {
+  line-height: 1.75;
+  padding-left: 24px;
+  margin-bottom: 12px;
 }
+
+.article-dates-wrapper {
+  font-weight: 700;
+}
+
 .article-subtitle {
+  font-size: 24px;
+  line-height: 1.67;
+  padding-left: 27px;
+  padding-right: 27px;
+  text-align: left;
+  margin-bottom: 40px;
 }
