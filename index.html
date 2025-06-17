@@ -77,17 +77,30 @@
                 <button class="hero-btn" type="button">Get started</button>
               </li>
               <li class="hero-btn-item">
-                <button class="hero-link" type="button">Watch the Video</button>
+                <button class="hero-link" type="button">
+                  <svg class="icon-play" width="16" height="18">
+                    <use href="./images/sprite.svg#icon-play"></use>
+                  </svg>
+                  Watch the Video
+                </button>
               </li>
             </ul>
           </div>
-          <img
-            class="hero-img"
-            src="./images/hero-img.svg"
-            alt=""
-            width="610"
-            height="555"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/desktop-img/hero-desk.png    1x,
+                ./images/desktop-img/hero-desk@2x.png 2x
+              "
+              media="(min-width:1150px)"
+            />
+            <img
+              class="hero-img"
+              src="./images/desktop-img/hero-desk.png"
+              alt="people with devices"
+              width="610"
+            />
+          </picture>
         </div>
       </section>
       <!-- Hero section end -->
@@ -100,27 +113,53 @@
           </h2>
           <ul class="feature-list">
             <li class="feature-list-item">
+              <div class="feature-icon-container pointer">
+                <svg class="feature-icon-pointer" width="11" height="18">
+                  <use href="./images/sprite.svg#icon-pointer"></use>
+                </svg>
+              </div>
               <h3 class="feature-subtitle">First click tests</h3>
               <p class="feature-text content-text">
                 While most people enjoy casino gambling
               </p>
             </li>
             <li class="feature-list-item">
+              <div class="feature-icon-container blue">
+                <svg class="feature-icon-snace" width="18" height="18">
+                  <use href="./images/sprite.svg#icon-snace"></use>
+                </svg>
+              </div>
+
               <h3 class="feature-subtitle">Design surveys</h3>
               <p class="feature-text content-text">
-                Sports betting, lottery and bingo playing for the fun
+                Sports betting, lottery and <br />
+                bingo playing for the fun
               </p>
             </li>
             <li class="feature-list-item">
+              <div class="feature-icon-container hart">
+                <svg class="feature-icon-hart" width="16" height="18">
+                  <use href="./images/sprite.svg#icon-hart"></use>
+                </svg>
+              </div>
+
               <h3 class="feature-subtitle">Preference tests</h3>
               <p class="feature-text content-text">
                 The Myspace page defines the individual.
               </p>
             </li>
             <li class="feature-list-item">
+              <div class="feature-icon-container red">
+                <svg class="feature-icon-clock" width="14" height="18">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
+
               <h3 class="feature-subtitle">Five second tests</h3>
               <p class="feature-text content-text">
-                Personal choices and the overall personality of the person.
+                Personal choices and the <br />
+                overall personality of the <br />
+                person.
               </p>
             </li>
           </ul>
@@ -158,24 +197,44 @@
               </li>
             </ul>
           </div>
-          <img
-            class="management-img"
-            src="./images/management-img.svg"
-            alt="sheets"
-            width="540"
-            height="500"
-          />
+
+          <picture>
+            <source
+              srcset="
+                ./images/desktop-img/management-desk.png    1x,
+                ./images/desktop-img/management-desk@2x.png 2x
+              "
+              media="(min-width:1150px)"
+            />
+            <img
+              class="management-img"
+              src="./images/desktop-img/management-desk.png"
+              alt="sheets"
+              width="540"
+            />
+          </picture>
         </div>
       </section>
       <!-- Management section end -->
       <!-- Customer Support section -->
       <section class="customer-support-section">
         <div class="container">
-          <img
-            class="customer-support-img"
-            src="./images/support-img.svg"
-            alt="laptop"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/desktop-img/support-desk.png    1x,
+                ./images/desktop-img/support-desk@2x.png 2x
+              "
+              media="(min-width:1150px)"
+            />
+            <img
+              class="customer-support-img"
+              src="./images/desktop-img/support-desk.png"
+              alt="laptop"
+              width="540"
+            />
+          </picture>
+
           <div class="customer-support-container">
             <p class="customer-support-text-title text-title">
               Easier decision making for
@@ -190,17 +249,35 @@
             </p>
             <ul class="customer-support-list">
               <li class="customer-support-item">
+                <div class="support-icon-container orange">
+                  <svg class="support-icon-tick" width="17" height="12">
+                    <use href="./images/sprite.svg#icon-tick"></use>
+                  </svg>
+                </div>
+
                 <p class="customer-support-item-text content-text">
                   Never worry about overpaying for your energy again.
                 </p>
               </li>
               <li class="customer-support-item">
+                <div class="support-icon-container red">
+                  <svg class="support-icon-tick" width="17" height="12">
+                    <use href="./images/sprite.svg#icon-tick"></use>
+                  </svg>
+                </div>
+
                 <p class="customer-support-item-text content-text">
                   We will only switch you to energy companies that we trust and
                   will treat you right
                 </p>
               </li>
               <li class="customer-support-item">
+                <div class="support-icon-container blue">
+                  <svg class="support-icon-tick" width="17" height="12">
+                    <use href="./images/sprite.svg#icon-tick"></use>
+                  </svg>
+                </div>
+
                 <p class="customer-support-item-text content-text">
                   We track the markets daily and know where the savings are.
                 </p>
@@ -236,11 +313,21 @@
               </li>
             </ul>
           </div>
-          <img
-            class="collaborative-img"
-            src="./images/collaboration-img.png"
-            alt="picture-icon"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/desktop-img/collaboration-desk.png    1x,
+                ./images/desktop-img/collaboration-desk@2x.png 2x
+              "
+              media="(min-width:1150)"
+            />
+            <img
+              class="collaborative-img"
+              src="./images/desktop-img/collaboration-desk.png"
+              alt="picture-icon"
+              width="540"
+            />
+          </picture>
         </div>
       </section>
       <!-- I can section -->
@@ -253,50 +340,86 @@
           </p>
           <ul class="i-can-list">
             <li class="i-can-item">
-              <img
-                class="i-can-img"
-                src="./images/avatar.png"
-                alt="blond-lady"
-                width="98"
-                height="98"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop-img/avatar-desk.png    1x,
+                    ./images/desktop-img/avatar-desk@2x.png 2x
+                  "
+                  media="(min-width:1150px)"
+                />
+
+                <img
+                  class="i-can-img"
+                  src="./images/desktop-img/avatar-desk.png"
+                  alt="blond-lady"
+                  width="98"
+                />
+              </picture>
               <p class="i-can-item-text content-text">
                 I can take care of your pitch
               </p>
             </li>
             <li class="i-can-item">
-              <img
-                class="i-can-img"
-                src="./images/avatar-1.png"
-                alt="man-with-camera"
-                width="98"
-                height="98"
-              />
-              <p class="i-can-item-text content-text">
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop-img/avatar-1-desk.png    1x,
+                    ./images/desktop-img/avatar-1-desk@2x.png 2x
+                  "
+                  media="(min-width:1150px)"
+                />
+
+                <img
+                  class="i-can-img"
+                  src="./images/desktop-img/avatar-1-desk.png "
+                  alt="grey-hair-lady"
+                  width="98"
+                />
+              </picture>
+              <p clas="i-can-item-text content-text">
                 I can take care of your pitch
               </p>
             </li>
 
             <li class="i-can-item">
-              <img
-                class="i-can-img"
-                src="./images/avatar-2.png"
-                alt="gray-hair-lady"
-                width="98"
-                height="98"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop-img/avatar-2-desk.png    1x,
+                    ./images/desktop-img/avatar-2-desk@2x.png 2x
+                  "
+                  media="(min-width:1150px)"
+                />
+
+                <img
+                  class="i-can-img"
+                  src="./images/desktop-img/avatar-2-desk.png "
+                  alt="man-with-camera"
+                  width="98"
+                />
+              </picture>
               <p class="i-can-item-text content-text">
                 I can prototype your app
               </p>
             </li>
             <li class="i-can-item">
-              <img
-                class="i-can-img"
-                src="./images/avatar-3.png"
-                alt="man-in-red"
-                width="98"
-                height="98"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop-img/avatar-3-desk.png    1x,
+                    ./images/desktop-img/avatar-3-desk@2x.png 2x
+                  "
+                  media="(min-width:1150px)"
+                />
+
+                <img
+                  class="i-can-img"
+                  src="./images/desktop-img/avatar-3-desk.png"
+                  alt="man-in-red"
+                  width="98"
+                />
+              </picture>
               <p class="i-can-item-text content-text">
                 I can help marketing strategy
               </p>
@@ -316,13 +439,21 @@
           </p>
           <ul class="article-list">
             <li class="article-item">
-              <img
-                class="article-img"
-                src="./images/work.png"
-                alt="opened-laptop"
-                width="350"
-                height="185"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop-img/work-proc-desk.png    1x,
+                    ./images/desktop-img/work-proc-desk@2x.png 2x
+                  "
+                />
+                <img
+                  class="article-img"
+                  src="./images/desktop-img/work-proc-desk.png"
+                  alt="opened-laptop"
+                  width="350"
+                />
+              </picture>
+
               <p class="article-dates">
                 By <span class="article-dates-wrapper">Wahid Ari</span> | 03
                 March 2019
@@ -332,29 +463,45 @@
               </h3>
             </li>
             <li class="article-item">
-              <img
-                class="article-img"
-                src="./images/holl.png"
-                alt="people-in-holl"
-                width="350"
-                height="185"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop-img/holl-desk.png    1x,
+                    ./images/desktop-img/holl-desk@2x.png 2x
+                  "
+                />
+                <img
+                  class="article-img"
+                  src="./images/desktop-img/holl-desk.png"
+                  alt="people-in-holl"
+                  width="350"
+                />
+              </picture>
+
               <p class="article-dates">
                 By <span class="article-dates-wrapper">Wahid Ari</span> | 03
                 March 2019
               </p>
-              <h3 class="article-subtitle">
+              <h3 class="article-subtitle accent">
                 Motivation Is The First Step To Success
               </h3>
             </li>
             <li class="article-item">
-              <img
-                class="article-img"
-                src="./images/city.png"
-                alt="skyscraper"
-                width="350"
-                height="185"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop-img/city-desk.png    1x,
+                    ./images/desktop-img/city-desk@2x.png 2x
+                  "
+                />
+                <img
+                  class="article-img"
+                  src="./images/desktop-img/city-desk.png"
+                  alt="skyscraper"
+                  width="350"
+                />
+              </picture>
+
               <p class="article-dates">
                 By <span class="article-dates-wrapper">Wahid Ari</span> | 03
                 March 2019
@@ -472,13 +619,23 @@
                 reach your financial goal.
               </p>
               <div class="client-data">
-                <img
-                  class="reviews-client-photo"
-                  src="./images/response-1.png"
-                  alt="photo-1"
-                  width="50"
-                  height="50"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop-img/avatar-4-desk.png    1x,
+                      ./images/desktop-img/avatar-4-desk@2x.png 2x
+                    "
+                    media="(min-width:1150px)"
+                  />
+
+                  <img
+                    class="reviews-client-photo"
+                    src="./images/desktop-img/avatar-4-desk.png"
+                    alt="women-in-white"
+                    width="50"
+                  />
+                </picture>
+
                 <div class="client">
                   <h3 class="reviews-client-name">Wahid Ari</h3>
                   <h4 class="reviews-client-position">Designer</h4>
@@ -519,13 +676,23 @@
                 reach your financial goal.
               </p>
               <div class="client-data">
-                <img
-                  class="reviews-client-photo"
-                  src="./images/response-2.png"
-                  alt="photo-1"
-                  width="50"
-                  height="50"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop-img/avatar-5-desk.png    1x,
+                      ./images/desktop-img/avatar-5-desk@2x.png 2x
+                    "
+                    media="(min-width:1150px)"
+                  />
+
+                  <img
+                    class="reviews-client-photo"
+                    src="./images/desktop-img/avatar-5-desk.png"
+                    alt="man-in-grey"
+                    width="50"
+                  />
+                </picture>
+
                 <div class="client">
                   <h3 class="reviews-client-name">Wahid Ari</h3>
                   <h4 class="reviews-client-position">Designer</h4>
@@ -566,13 +733,22 @@
                 reach your financial goal.
               </p>
               <div class="client-data">
-                <img
-                  class="reviews-client-photo"
-                  src="./images/response-3.png"
-                  alt="photo-1"
-                  width="50"
-                  height="50"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop-img/avatar-3-desk.png    1x,
+                      ./images/desktop-img/avatar-3-desk@2x.png 2x
+                    "
+                    media="(min-width:1150px)"
+                  />
+
+                  <img
+                    class="reviews-client-photo"
+                    src="./images/desktop-img/avatar-3-desk.png"
+                    alt="man-in-red"
+                    width="50"
+                  />
+                </picture>
                 <div class="client">
                   <h3 class="reviews-client-name">Wahid Ari</h3>
                   <h4 class="reviews-client-position">Designer</h4>
@@ -595,13 +771,22 @@
             </p>
             <button class="advertising-btn" type="button">Get This</button>
           </div>
-          <img
-            class="advertising-img"
-            src="./images/graphics.png"
-            alt="graphics"
-            width="351"
-            height="331"
-          />
+
+          <picture>
+            <source
+              srcset="
+                ./images/desktop-img/advertise-desk.png    1x,
+                ./images/desktop-img/advertise-desk@2x.png 2x
+              "
+              media="(min-width:1150)"
+            />
+            <img
+              class="collaborative-img"
+              src="./images/desktop-img/advertise-desk.png"
+              alt="graphics"
+              width="351"
+            />
+          </picture>
         </div>
       </section>
       <!-- Advertising section end -->

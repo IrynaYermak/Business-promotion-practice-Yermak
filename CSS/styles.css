@@ -142,6 +142,7 @@ input:hover {
 
 .hero-section .container {
   display: flex;
+  justify-content: space-between;
 }
 
 .container-hero {
@@ -176,12 +177,20 @@ input:hover {
   color: #fff;
 }
 
+.icon-play {
+  fill: #02897a;
+  margin-right: 8px;
+}
+
 .hero-link {
   width: 164px;
   font-weight: 600;
   text-decoration: underline;
   color: #02897a;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-img {
   margin-left: auto;
@@ -209,12 +218,41 @@ input:hover {
 .feature-list-item {
   flex-basis: calc((100% - 3 * 30px) / 4);
 }
+
+.feature-icon-container {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  fill: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.pointer {
+  background-color: #02897a;
+}
+
+.blue {
+  background-color: #4d8dff;
+}
+
+.hart {
+  background-color: #740a76;
+}
+
+.red {
+  background-color: #f03e3d;
+}
+
 .feature-subtitle {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 13px;
 }
 .feature-text {
+  margin-bottom: 26px;
 }
 .feature-btn {
   display: block;
@@ -233,6 +271,7 @@ input:hover {
 .management-section .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .management-container {
@@ -265,7 +304,7 @@ input:hover {
   margin-left: auto;
 }
 
-/* ====== .customer-support-section */
+/* ====== customer-support-section */
 
 .customer-support-section .container {
   display: flex;
@@ -294,12 +333,37 @@ input:hover {
 }
 .customer-support-item-text {
 }
+.customer-support-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding-right: 40px;
+}
+
+.support-icon-container {
+  border: 3px solid #fff;
+  border-radius: 14px;
+
+  width: 35px;
+  height: 35px;
+  fill: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.orange {
+  background-color: #f90;
+}
 
 /* ===== collaborative section */
 
 .collaborative-section .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .collaborative-container {
@@ -324,7 +388,6 @@ input:hover {
   margin-bottom: 12px;
 }
 .collaborative-img {
-  margin-left: auto;
 }
 
 /* ===== i can section ===== */
@@ -445,6 +508,10 @@ input:hover {
   padding-right: 27px;
   text-align: left;
   margin-bottom: 40px;
+}
+
+.article-subtitle.accent {
+  color: #02897a;
 }
 
 /* ====== price section ====== */
