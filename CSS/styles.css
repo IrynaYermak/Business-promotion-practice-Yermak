@@ -230,7 +230,7 @@ input:hover {
   margin-bottom: 26px;
 }
 
-.pointer {
+.green {
   background-color: #02897a;
 }
 
@@ -889,4 +889,117 @@ input:hover {
   width: 395px;
   margin: 0 auto;
   margin-bottom: 40px;
+}
+
+/* ====custumer page ===== */
+
+.customer-section-titles {
+  text-align: center;
+  font-size: 34px;
+}
+
+/* ======clients-section====== */
+.clients-section {
+  padding-top: 100px;
+  padding-bottom: 117px;
+}
+
+.clients-section-title {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.clients-section-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+.clients-section-item {
+}
+.clients-section-img {
+}
+
+/* ===== Why Choose Product section */
+
+.benefits-section {
+  padding-top: 24px;
+  padding-bottom: 68px;
+  background-color: #f5f5f5;
+}
+.container {
+}
+.benefits-section-title {
+  margin-bottom: 50px;
+}
+
+.benefits-section-list {
+  display: flex;
+  gap: 30px;
+}
+.benefits-section-list-item {
+  width: calc((100% - 60px) / 3);
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding-top: 32px;
+  padding-bottom: 34px;
+}
+
+.benefits-section-icon-container {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.benefits-section-icon {
+}
+
+.benefits-section-sutitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.37;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.benefits-section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6875;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-left: 38px;
+  margin-right: 37px;
+}
+
+/* ===== product-flow-section  ===== */
+
+.product-flow-section {
+  padding-top: 101px;
+  padding-bottom: 115px;
+}
+
+.product-flow-section-title {
+  margin-bottom: 73px;
+}
+
+.product-flow-section-list {
+}
+.title {
+}
+.product-flow-section-img {
+}
+.product-flow-section-step {
+}
+.product-flow-section-subtitle {
+}
+.product-flow-section-text {
+}
+.content-text {
 }
