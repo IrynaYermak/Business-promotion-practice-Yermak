@@ -3,10 +3,11 @@
 }
 
 .container {
-  width: 1150px;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 411px;
+  padding-left: 31px;
+  padding-right: 31px;
   margin: 0 auto;
+  position: relative;
 }
 section {
   padding-bottom: 100px;
@@ -53,8 +54,8 @@ body {
 }
 
 .section-titels {
-  font-size: 32px;
-  margin-bottom: 25px;
+  /* font-size: 32px; */
+  margin-bottom: 16px;
 }
 
 .text-title {
@@ -73,6 +74,11 @@ input:hover {
 
 /* ======header====== */
 
+.heading {
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
 .heading .container {
   display: flex;
   align-items: center;
@@ -84,58 +90,44 @@ input:hover {
 .logo-link {
   display: flex;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
+  gap: 8px;
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93;
   color: #173a56;
-  margin-right: 237px;
+  padding: 17px 0;
+  /* margin-right: 237px; */
 }
 .logo-img {
 }
 .nav-list {
-  display: flex;
-  gap: 30px;
+  /* display: flex;
+  gap: 30px; */
+  display: none;
 }
 .nav-list-item {
 }
-.nav-item-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.75;
-  color: #22343d;
-  display: block;
-  padding: 26px 0;
-}
 
-.active-nav-link {
-  font-weight: 600;
-}
 .heading-list-btn {
-  display: flex;
+  /* display: flex;
   margin-left: auto;
-  gap: 21px;
+  gap: 21px; */
+  display: none;
 }
 .list-btn-item {
 }
 
-.btn-in {
-  font-weight: 600;
-  color: #173a56;
-  width: 105px;
-  height: 42px;
-  background-color: #fff;
-  border: 1px solid #bcd0e5;
-  border-radius: 4px;
+.mob-manu-btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 58px;
+  top: 19px;
 }
-.btn-out {
-  width: 113px;
-  height: 42px;
-  border-radius: 4px;
-  background-color: #02897a;
-  font-weight: 600;
-  font-size: 16px;
-  color: #fff;
+.mob-manu-btn-icon {
+  stroke-width: 3px;
+  stroke: #173a56;
 }
 
 /* ===== HERO SECTION ====== */
@@ -1049,6 +1041,11 @@ input:hover {
 .join-section {
   padding-top: 35px;
   padding-bottom: 45px;
+  background-image: linear-gradient(
+    180deg,
+    #f5f5f5 0%,
+    rgba(245, 245, 245, 0) 100%
+  );
 }
 .container {
 }
@@ -1065,8 +1062,10 @@ input:hover {
 .join-section-subtitle {
   font-weight: 500;
   font-size: 24px;
-  line-height: 1.16667;
+  line-height: 1.17;
   color: #000;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 .join-icon-wrapper {
@@ -1077,6 +1076,8 @@ input:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 27px;
+  translate: 25%;
 }
 
 .join-icon-wrapper.activity {
@@ -1087,11 +1088,112 @@ input:hover {
   background-color: #f2f6ff;
 }
 
+.join-element-container {
+  display: flex;
+  gap: 227px;
+  justify-content: center;
+}
+
 .join-section-list {
+  text-align: center;
 }
 .join-section-item {
+  margin-bottom: 10px;
 }
 .join-item-text {
+  font-size: 18px;
+  line-height: 1.78;
 }
 .join-section-link {
+  font-weight: 500;
+  line-height: 1.75;
+  color: #000;
+}
+
+/* ====== customer-advertising-section ======== */
+
+.customer-advertising-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.customer-input {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* ====== desktop ======== */
+
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+  .heading-list-btn {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1150px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+
+  .section-titels {
+    margin-bottom: 25px;
+  }
+
+  .heading {
+    box-shadow: none;
+    background: #fff;
+  }
+
+  .logo-link {
+    gap: 16px;
+    margin-right: 237px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .nav-item-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    display: block;
+    padding: 26px 0;
+  }
+
+  .active-nav-link {
+    font-weight: 600;
+  }
+  .mob-manu-btn {
+    display: none;
+  }
+
+  .heading-list-btn {
+    display: flex;
+    margin-left: auto;
+    gap: 21px;
+  }
+  .btn-in {
+    font-weight: 600;
+    color: #173a56;
+    width: 105px;
+    height: 42px;
+    background-color: #fff;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+  }
+  .btn-out {
+    width: 113px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #02897a;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+  }
 }
