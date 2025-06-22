@@ -69,7 +69,7 @@
     </header>
     <main>
       <!-- Hero section -->
-      <!-- <section class="hero-section">
+      <section class="hero-section">
         <div class="container">
           <div class="container-hero">
             <h1 class="hero-title">
@@ -100,17 +100,26 @@
                 ./images/desktop-img/hero-desk.png    1x,
                 ./images/desktop-img/hero-desk@2x.png 2x
               "
-              media="(min-width:1150px)"
+              media="(min-width:768px)"
+              width="610"
+            />
+
+            <source
+              srcset="
+                ./images/mob-img/hero-img-mob.png    1x,
+                ./images/mob-img/hero-img-mob@2x.png 2x
+              "
+              media="(max-width:767px)"
+              width="338"
             />
             <img
               class="hero-img"
               src="./images/desktop-img/hero-desk.png"
               alt="people with devices"
-              width="610"
             />
           </picture>
         </div>
-      </section> -->
+      </section>
       <!-- Hero section end -->
       <!-- Feature section  -->
       <!-- <section class="feature-section">
